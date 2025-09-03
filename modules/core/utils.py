@@ -29,3 +29,5 @@ def validate_email(email: str) -> bool:
 def validate_phone(phone: str) -> bool:
     """Basic phone validation"""
     return phone.isdigit() and len(phone) >= 7
+
+
